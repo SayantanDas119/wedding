@@ -1,29 +1,57 @@
 {
     padding:0
     margin:0;
-    box-sizing:border-box;
+    <box-sizing:border-box>
 }
 .container{
     width: 100%;
     height: auto;
-    font-family:'cookie', cursive ;
+    font-family:'cursive' ;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-wrap: wrap;
     background-color: #ff99b6;
     overflow: hidden;
 }
 .banner{
-    weidth: 100%;
+    width: 100%;
     height: 600px;
-    background-image: url(wedding.jpg);
+    background-image: url(wedding1.jpg);
     background-repeat: no-repeat ;
-    background-size:cover;
+    background-size: cover;
     background-position:center;
     display:flex;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-border-redious:0 0 500px 0 ;
+    border-radius:0 0 500px 0 ;
+}
+.nav{
+    width:1000%;
+    height: auto;
+    background-color: rgba(red, green, blue, alpha);
+    border-radius: 60px;
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav b{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.menu{
+    width: 40%;
+    height: 60px;
+    border-radius:30px ;
+    position: relative;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgb(0,0,0,5);
+    transition-duration: 3s;
+
 }
