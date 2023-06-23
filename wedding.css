@@ -64,3 +64,34 @@
 .menu a:hover{
     border-bottom: 5px solid #333;
 }
+.text{
+    width: 100%;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+.text h1{
+    color: #df7693;
+    text-shadow: 0 3px 10px rgb(0,0,0,5);
+}
+.text .date{
+    color: #15f08a;
+    background-color: rgb(247, 139, 7);
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: 0.5s;
+}
+.section{
+    width:100% ;
+    height: auto;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+}
